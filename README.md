@@ -1,30 +1,5 @@
-<img src="https://user-images.githubusercontent.com/13212227/62058818-ffcef780-b25c-11e9-9a35-36537efbcca7.png" width=100%>
-
 # XSpear
 XSpear is XSS Scanner on ruby gems
-
-<img src="https://img.shields.io/github/languages/top/hahwul/xspear?color=red"> <img src="https://img.shields.io/gem/v/XSpear.svg"> <img src="https://img.shields.io/gem/dt/XSpear.svg"> <img src="https://img.shields.io/librariesio/sourcerank/rubygems/Xspear"> <img src="https://img.shields.io/github/license/hahwul/XSpear.svg"> <a href="https://twitter.com/intent/follow?screen_name=hahwul"><img src="https://img.shields.io/twitter/follow/hahwul?style=flat-square"></a>
-
-## TOC
-- [XSpear](#xspear)
-  * [Key features](#key-features)
-  * [Installation](#installation)
-    + [Dependency gems](#dependency-gems)
-  * [Usage on cli](#usage-on-cli)
-    + [Result types](#result-types)
-    + [Verbose Mode](#verbose-mode)
-    + [Case by Case](#case-by-case)
-    + [Sample log](#sample-log)
-  * [Usage on ruby code](#usage-on-ruby-code)
-  * [Add Scanning Module](#add-scanning-module)
-  * [Update](#update)
-  * [Development](#development)
-  * [Contributing](#contributing)
-  * [Donate](#donate)
-  * [License](#license)
-  * [Code of Conduct](#code-of-conduct)
-  * [ScreenShot](#screenshot)
-  * [Video](#video)
 
 ## Key features
 - Pattern matching based XSS scanning
@@ -550,36 +525,3 @@ https://www.rubydoc.info/gems/XSpear/
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/hahwul/XSpear. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Donate
-
-I like coffee! I'm a coffee addict.<br>
-<a href="https://www.paypal.me/hahwul"><img src="https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg" height="50px"></a>
-<a href="https://www.buymeacoffee.com/hahwul"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" height="50px"></a>
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the XSpear project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/XSpear/blob/master/CODE_OF_CONDUCT.md).
-
-## ScreenShot
-< Scanning Image>
-<img src="https://user-images.githubusercontent.com/13212227/71557939-c8c17400-2a90-11ea-9307-6cd9b9736afc.png" width=100%>
-< CLI-Report 1 >
-<img src="https://user-images.githubusercontent.com/13212227/71557940-c8c17400-2a90-11ea-90f4-589366f8fba8.png" width=100%>
-< CLI-Report 2 >
-<img src="https://user-images.githubusercontent.com/13212227/71557941-c8c17400-2a90-11ea-9cfe-90e9b5d51c34.png" width=100%>
-< JSON Report >
-<img src="https://user-images.githubusercontent.com/13212227/63032411-b8996580-bef0-11e9-8aee-0b80fe87f50d.png" width=100%>
-< HTML Report >
-<img src="https://user-images.githubusercontent.com/13212227/74363820-b1570400-4e0e-11ea-9ce5-c78319a9d81c.png" width=100%>
-
-## Video
-[![asciicast](https://asciinema.org/a/290126.svg)](https://asciinema.org/a/290126)
